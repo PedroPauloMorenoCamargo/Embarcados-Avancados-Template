@@ -166,6 +166,7 @@ Intel requires a license to use the Nios V IP in Quartus Prime Lite Edition. Thi
 !!! warning
     - For this project, ensure you download the **Nios V/m IP** license specifically.
     - The license is valid for one year and will need to be renewed afterward if you plan to continue using the Nios V IP.
+    - Use a `fixed` license since `floating` licenses are for more than one device (usually used by companies).
 
 ---
 
@@ -670,11 +671,27 @@ To program the software, complete the following steps:
 !!! CONCLUSION
     With all the steps completed, the application should run successfully, producing the expected result.
 
+## DE0-CV Board Tutorial Adjustments
+
+The tutorial for the DE0-CV board is very similar to the DE10-Standard tutorial, with only two key differences:
+
+1. **Project Creation in Quartus**  
+   When creating the project in Quartus, select the appropriate board from the Cyclone V family: `5CEBA4F23C7`.
+
+2. **Pin Assignments**  
+   Since the DE0-CV board uses different pin assignments, update the Pin Planner with the following configuration:
+
+    ![Pins2](./imgs/image.png)
+
+
 ## Demonstration:
+
+### DE10-Standard:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NpRT9kBTpRw?si=8BuNt9kL9TfT690o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+### DE0-CV:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/maJRlKNNVp8?si=F0xdn3l5HJxHvHWB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 
 *[Semester]*: Placeholder for semester information.
